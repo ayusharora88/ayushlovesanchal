@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Valentine's Day ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      color: #ffffff;
+      text-align: center;
+      overflow-x: hidden;
+    }
+    .container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      position: relative;
+    }
+    h1 { font-size: 3rem; margin-bottom: 10px; }
+    h2 { font-size: 1.6rem; font-weight: 300; margin-bottom: 30px; }
+    h3 { margin-top: 25px; }
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(8px);
+      border-radius: 20px;
+      padding: 30px;
+      max-width: 800px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      animation: fadeInUp 1.2s ease forwards;
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .message { font-size: 1.1rem; line-height: 1.8; }
+    .heart { font-size: 3rem; animation: pulse 1.5s infinite; margin: 20px 0; }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 14px;
+      margin-top: 20px;
+    }
+    .gallery div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+    }
+    .gallery img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      border-radius: 14px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+      opacity: 0;
+      transform: scale(0.95);
+      animation: imageFade 0.8s ease forwards;
+    }
+    @keyframes imageFade { to { opacity: 1; transform: scale(1); } }
+    .year {
+      font-size: 0.85rem;
+      opacity: 0.9;
+      font-style: italic;
+    }
+    .footer { margin-top: 25px; font-style: italic; opacity: 0.95; }
+    button {
+      margin-top: 25px;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 30px;
+      background-color: #ffffff;
+      color: #ff4f81;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .music-controls {
+      margin-top: 15px;
+    }
+    .final-line {
+      margin-top: 30px;
+      font-size: 1.3rem;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Happy Valentine’s Day ❤️</h1>
+    <h2>To the love of my life</h2>
+
+    <div class="card">
+      <div class="heart">💖</div>
+      <p class="message">
+        My love,<br /><br />
+        Every day with you feels like a blessing, but today I just wanted to pause
+        and remind you how incredibly special you are to me. Your smile, your kindness,
+        and your strength light up my life in ways I can never fully explain.
+        <br /><br />
+        From our first memories to all the moments we have shared since, every picture
+        tells a story of laughter, love, and togetherness. I cherish every chapter we
+        have written together.
+      </p>
+
+      <h3>Our Journey Together 💞</h3>
+      <div class="gallery">
+  <div><img src="https://www.dropbox.com/scl/fi/w613ubh3ga3nss64v6qik/image-1.jpg?raw=1" alt="April 2015" style="--i:1" /><span class="year">April 2015</span></div>
+  <div><img src="https://www.dropbox.com/scl/fi/71p21xit7dm4raoi8ome1/image-2.jpg?raw=1" alt="June 2015" style="--i:2" /><span class="year">June 2015</span></div>
+  <div><img src="https://www.dropbox.com/scl/fi/je0v0zjkluf95nhyajfw1/image-3.jpg?raw=1" alt="London 2016" style="--i:3" /><span class="year">London · 2016</span></div>
+  <div><img src="https://www.dropbox.com/scl/fi/rkenaxf1cq4cclv2cc7fs/image-4.jpg?raw=1" alt="Oxford October 2016" style="--i:4" /><span class="year">Oxford · Oct 2016</span></div>
+  <div><img src="https://www.dropbox.com/scl/fi/0w9r4trf5qnq6iaip6fyn/image-5.jpg?raw=1" alt="Southend-on-Sea 2018" style="--i:5" /><span class="year">Southend‑on‑Sea · 2018</span></div>
+  <div><img src="https://www.dropbox.com/scl/fi/4fr6q7b1ptbxuaykn276t/image-6.jpg?raw=1" alt="Paris November 2018" style="--i:6" /><span class="year">Paris · Nov 2018</span></div>
+  <div><img src="https://www.dropbox.com/scl/fi/51pu493xjk5cqgrlwn59x/image-7.jpg?raw=1" alt="Amsterdam July 2019" style="--i:7" /><span class="year">Amsterdam · Jul 2019</span></div>
+  <div><img src="https://www.dropbox.com/scl/fi/g5bbhds5pj0iprw1ubwga/image-8.jpg?raw=1" alt="Milan 2022" style="--i:8" /><span class="year">Milan · 2022</span></div>
+  <div><img src="https://www.dropbox.com/scl/fi/4lrmlnt1muoetupd8wujc/image.jpg?raw=1" alt="Lake Como 2022" style="--i:9" /><span class="year">Lake Como · 2022</span></div>
+  <div><img src="https://www.dropbox.com/scl/fi/tymf7v1vfjryqiye7gway/IMG_5259.JPG?raw=1" alt="Venice 2023" style="--i:10" /><span class="year">Venice · 2023</span></div>
+</div>
+  <div><img src="https://www.dropbox.com/scl/fi/71p21xit7dm4raoi8ome1/image-2.jpg?raw=1" alt="Memory 2" style="--i:2" /><span class="year">YEAR</span></div>
+  <img src="https://www.dropbox.com/scl/fi/je0v0zjkluf95nhyajfw1/image-3.jpg?raw=1" alt="Memory 3" style="--i:3" />
+  <img src="https://www.dropbox.com/scl/fi/rkenaxf1cq4cclv2cc7fs/image-4.jpg?raw=1" alt="Memory 4" style="--i:4" />
+  <img src="https://www.dropbox.com/scl/fi/0w9r4trf5qnq6iaip6fyn/image-5.jpg?raw=1" alt="Memory 5" style="--i:5" />
+  <img src="https://www.dropbox.com/scl/fi/4fr6q7b1ptbxuaykn276t/image-6.jpg?raw=1" alt="Memory 6" style="--i:6" />
+  <img src="https://www.dropbox.com/scl/fi/51pu493xjk5cqgrlwn59x/image-7.jpg?raw=1" alt="Memory 7" style="--i:7" />
+  <img src="https://www.dropbox.com/scl/fi/g5bbhds5pj0iprw1ubwga/image-8.jpg?raw=1" alt="Memory 8" style="--i:8" />
+  <img src="https://www.dropbox.com/scl/fi/4lrmlnt1muoetupd8wujc/image.jpg?raw=1" alt="Memory 9" style="--i:9" />
+  <img src="https://www.dropbox.com/scl/fi/tymf7v1vfjryqiye7gway/IMG_5259.JPG?raw=1" alt="Memory 10" style="--i:10" />
+</div>
+
+      <button onclick="showSurprise()">Click for Today’s Surprise 💝</button>
+      <div id="surprise" class="footer" style="display:none;">
+  <h3>What We’re Doing Today ❤️</h3>
+  <p>
+    Today is all about us — laughter, love, long conversations,
+    and making memories we’ll cherish forever.
+  </p>
+  <p class="final-line">And I choose you, Anchal. Every single day. 💍</p>
+</div>
+
+      <!-- Music Section -->
+      <div id="music" style="margin-top:20px; display:none;">
+  <iframe id="ytplayer" width="100%" height="180"
+    src="https://www.youtube.com/embed/KUpwupYj_tY?autoplay=1&enablejsapi=1"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen>
+  </iframe>
+  <div class="music-controls">
+    <button onclick="toggleMusic()">Play / Pause 🎶</button>
+  </div>
+</div>
+    </div>
+
+    <div class="footer">— With all my love</div>
+  </div>
+
+  <script>
+    let isPlaying = true;
+
+    function showSurprise() {
+      document.getElementById('surprise').style.display = 'block';
+      document.getElementById('music').style.display = 'block';
+    }
+
+    function toggleMusic() {
+      const iframe = document.getElementById('ytplayer');
+      iframe.contentWindow.postMessage('{"event":"command","func":"' + (isPlaying ? 'pauseVideo' : 'playVideo') + '","args":""}', '*');
+      isPlaying = !isPlaying;
+    }
+  </script>
+</body>
+</html>
